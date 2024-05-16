@@ -3,18 +3,21 @@
   <HelloWorld msg="Welcome to Vue.js App"/>
   <homeComponentdetail />
   <methodParams />
+  <eventClick />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import homeComponentdetail from './components/homeComponentdetail.vue'
 import methodParams from './components/methodParams.vue';
+import eventClick from './components/eventClick.vue';
 export default {
   name: 'App',
   components: {
     HelloWorld,
     homeComponentdetail,
-    methodParams
+    methodParams,
+    eventClick
   }
 }
 </script>
