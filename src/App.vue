@@ -2,16 +2,19 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Vue.js App"/>
   <homeComponentdetail />
+  <methodParams />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import homeComponentdetail from './components/homeComponentdetail.vue'
+import methodParams from './components/methodParams.vue';
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    homeComponentdetail
+    homeComponentdetail,
+    methodParams
   }
 }
 </script>
