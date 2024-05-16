@@ -5,6 +5,7 @@
   <methodParams />
   <eventClick />
   <TowWaybinding />
+  <getInput />
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import homeComponentdetail from './components/homeComponentdetail.vue'
 import methodParams from './components/methodParams.vue';
 import eventClick from './components/eventClick.vue';
 import TowWaybinding from './components/towWaybinding.vue';
+import getInput from './components/getInput.vue';
 export default {
   name: 'App',
   components: {
@@ -20,7 +22,8 @@ export default {
     homeComponentdetail,
     methodParams,
     eventClick,
-    TowWaybinding
+    TowWaybinding,
+    getInput
 }
 }
 </script>
