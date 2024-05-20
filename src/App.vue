@@ -7,6 +7,7 @@
   <TowWaybinding />
   <getInput />
   <checkBox />
+  <conditionIfelse />
 </template>
 
 <script>
@@ -17,6 +18,7 @@ import eventClick from './components/eventClick.vue';
 import TowWaybinding from './components/towWaybinding.vue';
 import getInput from './components/getInput.vue';
 import checkBox from './components/checkBox.vue';
+import conditionIfelse from './components/conditionIfelse.vue';
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     eventClick,
     TowWaybinding,
     getInput,
-    checkBox
+    checkBox,
+    conditionIfelse
 }
 }
 </script>
