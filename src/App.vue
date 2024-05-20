@@ -6,6 +6,7 @@
   <eventClick />
   <TowWaybinding />
   <getInput />
+  <checkBox />
 </template>
 
 <script>
@@ -15,6 +16,8 @@ import methodParams from './components/methodParams.vue';
 import eventClick from './components/eventClick.vue';
 import TowWaybinding from './components/towWaybinding.vue';
 import getInput from './components/getInput.vue';
+import checkBox from './components/checkBox.vue';
+
 export default {
   name: 'App',
   components: {
@@ -23,7 +26,8 @@ export default {
     methodParams,
     eventClick,
     TowWaybinding,
-    getInput
+    getInput,
+    checkBox
 }
 }
 </script>
