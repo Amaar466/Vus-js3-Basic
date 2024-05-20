@@ -8,6 +8,7 @@
   <getInput />
   <checkBox />
   <conditionIfelse />
+  <loopsAll />
 </template>
 
 <script>
@@ -19,6 +20,7 @@ import TowWaybinding from './components/towWaybinding.vue';
 import getInput from './components/getInput.vue';
 import checkBox from './components/checkBox.vue';
 import conditionIfelse from './components/conditionIfelse.vue';
+import loopsAll from './components/loopsAll.vue';
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     TowWaybinding,
     getInput,
     checkBox,
-    conditionIfelse
+    conditionIfelse,
+    loopsAll
 }
 }
 </script>
