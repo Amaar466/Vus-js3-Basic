@@ -10,6 +10,7 @@
   <conditionIfelse />
   <loopsAll />
   <parentCompenent />
+  <reuseComponent />
 </template>
 
 <script>
@@ -23,6 +24,7 @@ import checkBox from './components/checkBox.vue';
 import conditionIfelse from './components/conditionIfelse.vue';
 import loopsAll from './components/loopsAll.vue';
 import parentCompenent from './components/parentCompenent.vue';
+import reuseComponent from './components/reuseComponent.vue';
 
 
 export default {
@@ -37,7 +39,8 @@ export default {
     checkBox,
     conditionIfelse,
     loopsAll,
-    parentCompenent
+    parentCompenent,
+    reuseComponent,
 }
 }
 </script>
