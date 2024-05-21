@@ -13,6 +13,7 @@
   <reuseComponent />
   <HtmlBinding />
   <DynamicBinding />
+  <PropsComponent />
 </template>
 
 <script>
@@ -29,6 +30,7 @@ import parentCompenent from './components/parentCompenent.vue';
 import reuseComponent from './components/reuseComponent.vue';
 import HtmlBinding from './components/htmlBinding.vue';
 import DynamicBinding from './components/dynamicBinding.vue';
+import PropsComponent from './components/propsComponent.vue';
 
 
 export default {
@@ -46,7 +48,8 @@ export default {
     parentCompenent,
     reuseComponent,
     HtmlBinding,
-    DynamicBinding
+    DynamicBinding,
+    PropsComponent
 }
 }
 </script>
