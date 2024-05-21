@@ -9,6 +9,7 @@
   <checkBox />
   <conditionIfelse />
   <loopsAll />
+  <parentCompenent />
 </template>
 
 <script>
@@ -21,6 +22,8 @@ import getInput from './components/getInput.vue';
 import checkBox from './components/checkBox.vue';
 import conditionIfelse from './components/conditionIfelse.vue';
 import loopsAll from './components/loopsAll.vue';
+import parentCompenent from './components/parentCompenent.vue';
+
 
 export default {
   name: 'App',
@@ -33,7 +36,8 @@ export default {
     getInput,
     checkBox,
     conditionIfelse,
-    loopsAll
+    loopsAll,
+    parentCompenent
 }
 }
 </script>
