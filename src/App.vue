@@ -12,6 +12,7 @@
   <parentCompenent />
   <reuseComponent />
   <HtmlBinding />
+  <DynamicBinding />
 </template>
 
 <script>
@@ -27,6 +28,7 @@ import loopsAll from './components/loopsAll.vue';
 import parentCompenent from './components/parentCompenent.vue';
 import reuseComponent from './components/reuseComponent.vue';
 import HtmlBinding from './components/htmlBinding.vue';
+import DynamicBinding from './components/dynamicBinding.vue';
 
 
 export default {
@@ -43,7 +45,8 @@ export default {
     loopsAll,
     parentCompenent,
     reuseComponent,
-    HtmlBinding
+    HtmlBinding,
+    DynamicBinding
 }
 }
 </script>
