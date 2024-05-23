@@ -15,6 +15,7 @@
   <DynamicBinding />
   <PropsComponent />
   <RefComponent />
+  <FormComponent />
 </template>
 
 <script>
@@ -33,6 +34,7 @@ import HtmlBinding from './components/htmlBinding.vue';
 import DynamicBinding from './components/dynamicBinding.vue';
 import PropsComponent from './components/propsComponent.vue';
 import RefComponent from './components/refComponent.vue';
+import FormComponent from './components/formComponent.vue';
 
 
 export default {
@@ -52,7 +54,8 @@ export default {
     HtmlBinding,
     DynamicBinding,
     PropsComponent,
-    RefComponent
+    RefComponent,
+    FormComponent
 }
 }
 </script>
