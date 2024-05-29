@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Vue.js App"/>
+  <HelloWorld msg="Welcome to Vue.js App" />
   <homeComponentdetail />
   <methodParams />
   <eventClick />
@@ -17,6 +17,8 @@
   <RefComponent />
   <FormComponent />
   <ModifierComponent />
+  <nonProps />
+  <selectButton />
 </template>
 
 <script>
@@ -37,6 +39,8 @@ import PropsComponent from './components/propsComponent.vue';
 import RefComponent from './components/refComponent.vue';
 import FormComponent from './components/formComponent.vue';
 import ModifierComponent from './components/modifierComponent.vue';
+import nonProps from './components/nonProps.vue';
+import selectButton from './components/selectButton.vue';
 
 
 export default {
@@ -58,8 +62,11 @@ export default {
     PropsComponent,
     RefComponent,
     FormComponent,
-    ModifierComponent
-}
+    ModifierComponent,
+    nonProps,
+    selectButton
+
+  }
 }
 </script>
 
