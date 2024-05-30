@@ -20,6 +20,7 @@
   <nonProps />
   <selectButton />
   <computedProperty />
+  <watchComponent />
 </template>
 
 <script>
@@ -43,6 +44,7 @@ import ModifierComponent from './components/modifierComponent.vue';
 import nonProps from './components/nonProps.vue';
 import selectButton from './components/selectButton.vue';
 import computedProperty from './components/computedProperty.vue';
+import watchComponent from './components/watchComponent.vue';
 
 
 export default {
@@ -68,6 +70,7 @@ export default {
     nonProps,
     selectButton,
     computedProperty,
+    watchComponent,
 
   }
 }
