@@ -19,6 +19,7 @@
   <ModifierComponent />
   <nonProps />
   <selectButton />
+  <computedProperty />
 </template>
 
 <script>
@@ -41,6 +42,7 @@ import FormComponent from './components/formComponent.vue';
 import ModifierComponent from './components/modifierComponent.vue';
 import nonProps from './components/nonProps.vue';
 import selectButton from './components/selectButton.vue';
+import computedProperty from './components/computedProperty.vue';
 
 
 export default {
@@ -64,7 +66,8 @@ export default {
     FormComponent,
     ModifierComponent,
     nonProps,
-    selectButton
+    selectButton,
+    computedProperty,
 
   }
 }
