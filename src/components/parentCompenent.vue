@@ -1,14 +1,17 @@
 <template>
 <h1>Pass Data Parent to Child</h1>
 <childComponent name="Amaar ul haq" :user="user"  :getData="getData"/>
+
 </template>
 
 <script>
 import childComponent from './childComponent.vue';
+
 export default {
     name:'parentComponent',
     components:{
-        childComponent
+        childComponent,
+      
     },
     data() {
         return {

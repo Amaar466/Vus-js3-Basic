@@ -21,6 +21,7 @@
   <selectButton />
   <computedProperty />
   <watchComponent />
+  <homeSlot />
 </template>
 
 <script>
@@ -45,6 +46,7 @@ import nonProps from './components/nonProps.vue';
 import selectButton from './components/selectButton.vue';
 import computedProperty from './components/computedProperty.vue';
 import watchComponent from './components/watchComponent.vue';
+import homeSlot from './components/homeSlot.vue';
 
 
 export default {
@@ -71,8 +73,8 @@ export default {
     selectButton,
     computedProperty,
     watchComponent,
-
-  }
+  homeSlot
+}
 }
 </script>
 
